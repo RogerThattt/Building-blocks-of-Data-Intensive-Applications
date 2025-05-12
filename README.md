@@ -1,1 +1,3 @@
 # Building-blocks-of-Data-Intensive-Applications
+
+A data-intensive application is typically built from standard building blocks which provide commonly needed functionality. For example, many applications need to:  Store data so that they, or another application, can find it again later (databases),  Remember the result of an expensive operation, to speed up reads (caches),  Allow users to search data by keyword or filter it in various ways (search indexes),  Send a message to another process, to be handled asynchronously (message queues),  Observe what is happening, and act on events as they occur (stream processing),  Periodically crunch a large amount of accumulated data (batch processing).
